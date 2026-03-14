@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
 from datetime import datetime
+from scipy.integrate import solve_ivp
 
 # ===============================
 # PAGE CONFIG
